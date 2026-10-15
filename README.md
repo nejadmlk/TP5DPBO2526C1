@@ -86,3 +86,15 @@ Program ini menggunakan database mysql yang digunakan untuk mengimpan semua data
 
 ## Input
 <img src="Dokumentasi/add.gif" width="100%">
+
+## Input
+<img src="Dokumentasi/update.gif" width="100%">
+
+## Input
+<img src="Dokumentasi/delete.gif" width="100%">
+
+## Input
+<img src="Dokumentasi/update-klo-id-kosong.gif" width="100%">
+
+## Input
+<img src="Dokumentasi/add-klo-id-sama.gif" width="100%">
