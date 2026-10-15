@@ -84,10 +84,5 @@ Program ini menggunakan database mysql yang digunakan untuk mengimpan semua data
 
 # Dokumentasi
 
-## Java
-
-| Tampilkan Input | Komentar Abis Input | Tampilan Edit Data |
-| :---: | :---: | :---: |
-| <img src="Dokumentasi/tampilan input.png" width="100%"> | <img src="Dokumentasi/komentar abis input.png" width="100%"> | <img src="Dokumentasi/tampilan edit data.png" width="100%"> |
-| **Disclaimer Saat Mau Hapus Data** | **isi .form** |
-| <img src="Dokumentasi/disclaimer klo mau apus data.png" width="100%"> | <img src="Dokumentasi/isi .form.png" width="100%"> | 
+## Input
+<img src="Dokumentasi/add.gif" width="100%">
