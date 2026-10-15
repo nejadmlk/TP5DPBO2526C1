@@ -4,6 +4,7 @@ Saya Nezhad Ahmad Maliki dengan NIM 2503880 mengerjakan Tugas Praktikum 5 pada M
 # Struktur File
 
 ```
+C:.
 ├───.idea
 │       .gitignore
 │       misc.xml
@@ -19,14 +20,19 @@ Saya Nezhad Ahmad Maliki dengan NIM 2503880 mengerjakan Tugas Praktikum 5 pada M
 │       tampilan edit data.png
 │       tampilan input.png
 │
+├───lib
+│       mysql-connector-j-26.7.0.jar
+│
 ├───out
 │   └───production
 │       └───Persons
+│           │   Database.class
 │           │   Person.class
 │           │   PersonMenu$1.class
 │           │   PersonMenu$2.class
 │           │   PersonMenu$3.class
 │           │   PersonMenu$4.class
+│           │   PersonMenu$5.class
 │           │   PersonMenu.class
 │           │
 │           └───com
@@ -49,6 +55,7 @@ Saya Nezhad Ahmad Maliki dengan NIM 2503880 mengerjakan Tugas Praktikum 5 pada M
     │   Persons.iml
     │
     └───src
+            Database.java
             Person.java
             PersonMenu.form
             PersonMenu.java
@@ -72,6 +79,8 @@ jadi alur pada program ini cukup sederhana yaitu user diberikan sebuah tampilan 
 user juga dapat mengupdate dan mendelete data dengan cara mengklik terlebih dahulu data yang akan diupdate atau di delete yang ada pada table. kemudian, tampilan yang awalnya pada sebelah kanan itu hanya add dan cancel akan berubah menjadi update cancel dan delete. ketika user ingin mendelete suatu data, maka user akan diberikan "disclaimer" terlebih dahulu untuk memastikan kalau user yakin atau tidak untuk menghapus data tersebut.
 
 untuk penjelasan dari design .form, pada bagian id, nama, tahun lahir, dan gmail itu menggunakan Jtextfield, kemudian untuk tombol add, update, cancel, dan delete menggunakan Jbutton. untuk bagian teks di sebelah kiri dan header menggunakan Jlabel. kemudian untuk bagian tabel menggunakan Jscrollpanel yang kemudian dimasukkan Jtable didalamnya.
+
+Program ini menggunakan database mysql yang digunakan untuk mengimpan semua data yang ada.
 
 # Dokumentasi
 
